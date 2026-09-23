@@ -1,0 +1,41 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "theme": "dark",
+  "defaultProvider": "zai-api",
+  "defaultModel": "glm-5.3",
+  "tuiMode": "fullscreen",
+  "packages": [
+    "npm:pi-web-access",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-subagents",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@narumitw/pi-btw",
+    "npm:pi-lens"
+  ],
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "quietStartup": true,
+  "subagents": {
+    "agentOverrides": {
+      "codex-exec": {
+        "disabled": true
+      },
+      "codex-exec-writer": {
+        "disabled": true
+      },
+      "claude-code": {
+        "disabled": true
+      },
+      "claude-code-writer": {
+        "disabled": true
+      },
+      "cursor-agent": {
+        "disabled": true
+      },
+      "cursor-agent-writer": {
+        "disabled": true
+      }
+    }
+  }
+}

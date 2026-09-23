@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "zai-api": {
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "api": "openai-completions",
+      "compat": {
+        "supportsStore": false,
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": true,
+        "maxTokensField": "max_tokens",
+        "thinkingFormat": "zai",
+        "zaiToolStream": true
+      },
+      "models": [
+        {
+          "id": "glm-5.3",
+          "name": "GLM-5.3 (BigModel API)",
+          "reasoning": true,
+          "thinkingLevelMap": { "off": null, "minimal": null, "low": "low", "medium": null, "high": "high", "xhigh": null, "max": "max" },
+          "input": ["text"],
+          "cost": { "input": 1.4, "output": 4.4, "cacheRead": 0.26, "cacheWrite": 0 },
+          "contextWindow": 1000000,
+          "maxTokens": 131072
+        },
+        {
+          "id": "glm-5.3-flash",
+          "name": "GLM-5.3-Flash (BigModel API)",
+          "reasoning": true,
+          "thinkingLevelMap": { "off": null, "minimal": null, "low": "low", "medium": null, "high": "high", "xhigh": null, "max": "max" },
+          "input": ["text", "image"],
+          "cost": { "input": 0.075, "output": 0.25, "cacheRead": 0.015, "cacheWrite": 0 },
+          "contextWindow": 1000000,
+          "maxTokens": 131072
+        }
+      ]
+    }
+  }
+}

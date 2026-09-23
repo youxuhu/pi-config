@@ -1,0 +1,12 @@
+{
+ "saveId": "pending",
+ "goals": [],
+ "lessons": [],
+ "days": [],
+ "penaltyHistory": [],
+ "stats": {
+  "jevCalls": 0,
+  "llmCalls": 0,
+  "lastSeen": "2026-09-19T05:40:18.091Z"
+ }
+}

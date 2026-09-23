@@ -1,0 +1,10 @@
+# machine-local / heavy data — never sync
+sessions/
+npm/
+web-search-cache/
+missions/
+bin/
+# secrets — copy manually or re-login, never commit
+auth.json*
+# transient backups
+*.bak*

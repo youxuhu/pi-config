@@ -8,3 +8,5 @@ bin/
 auth.json*
 # transient backups
 *.bak*
+extensions/runs/
+models-store.json

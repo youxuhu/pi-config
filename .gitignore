@@ -10,3 +10,6 @@ auth.json*
 *.bak*
 extensions/runs/
 models-store.json
+node_modules/
+package.json
+package-lock.json
